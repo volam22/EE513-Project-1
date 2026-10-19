@@ -59,6 +59,6 @@ Results will be updated as measurements are completed. Each numerical result wil
 
 Portland State University
 
-EE513 – Image Processing
+EE513 - Image Processing
 
 Project 1: Characterize Your Camera
