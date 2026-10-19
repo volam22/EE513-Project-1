@@ -12,7 +12,7 @@ The objective is to measure camera performance beyond the manufacturer's specifi
 - **RAW Capture App:** RAW Camera
 - **Programming Language:** Python
 - **Software:** OpenCV, NumPy, Matplotlib, and other required libraries
-- **Image Format:** DNG (true Bayer RAW, to be verified)
+- **Image Format:** DNG 
 
 All measurements will use the same physical camera to maintain consistency.
 
