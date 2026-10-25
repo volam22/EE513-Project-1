@@ -1,0 +1,43 @@
+{
+  "_README": "EE 513 Project 1. Each measured numeric entry is [value, uncertainty] in the units named by the key. Use null for measurements not yet completed. Do not delete keys or invent uncertainties.",
+
+  "camera": "iPhone 14 Pro back camera 6.86mm f/1.78",
+  "capture_app": RawCam,
+  "cfa_pattern": "BGGR",
+  "raw_width_px": 4032,
+  "raw_height_px": 3024,
+  "binned_from_higher_resolution_sensor": null,
+
+  "focal_length_px": null,
+  "focal_length_mm": null,
+  "principal_point_x_px": null,
+  "principal_point_y_px": null,
+  "distortion_k1": null,
+  "distortion_k2": null,
+  "distortion_p1": null,
+  "distortion_p2": null,
+  "reprojection_rms_px": null,
+  "n_calibration_images_used": null,
+  "checkerboard_square_mm_measured": null,
+
+  "mtf50_center_cy_per_px": null,
+  "mtf50_corner_mean_cy_per_px": null,
+  "mtf50_corner_worst_cy_per_px": null,
+
+  "conversion_gain_dn_per_e": null,
+  "read_noise_e": null,
+  "dark_current_e_per_s": null,
+  "iso_of_noise_measurement": null,
+  "black_level_dn": [528.0, 0.0],
+  "white_level_dn": 4095,
+  "vendor_noiseprofile_present": null,
+
+  "dynamic_range_stops": null,
+  "dynamic_range_criterion": null,
+
+  "delta_e_metric": "CIEDE2000",
+  "colorchecker_reference_set": "ColorChecker24 - After November 2014",
+  "delta_e_mean_before_ccm": [20.604, 0.520],
+  "delta_e_mean_after_ccm": [3.879, 0.293],
+  "delta_e_worst_after_ccm": [8.321, 0.151]
+}
