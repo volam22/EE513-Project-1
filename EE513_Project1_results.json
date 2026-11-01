@@ -1,47 +1,20 @@
 {
   "_README": "EE 513 Project 1. Each measured numeric entry is [value, uncertainty] in the units named by the key. Use null for measurements not yet completed. Do not delete keys or invent uncertainties.",
-  "camera": "iPhone 14 Pro back camera 6.86mm f/1.78",
+  "camera": "iPhone 14 Pro back camera 6.86mm f/1.78', 6.86, 24, (4032, 3024)",
   "capture_app": "RawCam",
   "cfa_pattern": "BGGR",
   "raw_width_px": 4032,
   "raw_height_px": 3024,
   "binned_from_higher_resolution_sensor": true,
-  "focal_length_px": [
-    2900.04,
-    5.99
-  ],
-  "focal_length_mm": [
-    7.0761,
-    0.0146
-  ],
-  "principal_point_x_px": [
-    1490.05,
-    5.0
-  ],
-  "principal_point_y_px": [
-    1965.99,
-    6.05
-  ],
-  "distortion_k1": [
-    0.2235,
-    0.0039
-  ],
-  "distortion_k2": [
-    -0.4004,
-    0.0171
-  ],
-  "distortion_p1": [
-    -0.0168,
-    0.0009
-  ],
-  "distortion_p2": [
-    -0.0037,
-    0.0008
-  ],
-  "reprojection_rms_px": [
-    0.5549,
-    null
-  ],
+  "focal_length_px": [2786.07, 11.03],
+  "focal_length_mm": [6.798, 0.0269],
+  "principal_point_x_px": [1501.06, 5.76],
+  "principal_point_y_px": [2003.55, 7.76],
+  "distortion_k1": [0.0552, 0.003],
+  "distortion_k2": [-0.0493, 0.0037],
+  "distortion_p1": [-0.0001, 0.0006],
+  "distortion_p2": [-0.0017, 0.0007],
+  "reprojection_rms_px": [0.8946, null],
   "n_calibration_images_used": 16,
   "checkerboard_square_mm_measured": null,
   "mtf50_center_cy_per_px": null,
@@ -51,26 +24,14 @@
   "read_noise_e": null,
   "dark_current_e_per_s": null,
   "iso_of_noise_measurement": null,
-  "black_level_dn": [
-    528.0,
-    0.0
-  ],
+  "black_level_dn": [528.0, 0.0],
   "white_level_dn": 4095,
   "vendor_noiseprofile_present": null,
   "dynamic_range_stops": null,
   "dynamic_range_criterion": null,
   "delta_e_metric": "CIEDE2000",
   "colorchecker_reference_set": "ColorChecker24 - After November 2014",
-  "delta_e_mean_before_ccm": [
-    20.604,
-    0.52
-  ],
-  "delta_e_mean_after_ccm": [
-    3.879,
-    0.293
-  ],
-  "delta_e_worst_after_ccm": [
-    8.321,
-    0.151
-  ]
+  "delta_e_mean_before_ccm": [20.604, 0.52],
+  "delta_e_mean_after_ccm": [3.879, 0.293],
+  "delta_e_worst_after_ccm": [8.321, 0.151]
 }
