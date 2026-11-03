@@ -16,10 +16,10 @@
   "distortion_p2": [-0.0017, 0.0007],
   "reprojection_rms_px": [0.8946, null],
   "n_calibration_images_used": 16,
-  "checkerboard_square_mm_measured": [20.0, 0.01]
-  "mtf50_center_cy_per_px": [0.3730, 0.0063]
-  "mtf50_corner_mean_cy_per_px": [0.3391, 0.0013]
-  "mtf50_corner_worst_cy_per_px": [0.2465, 0.0058]
+  "checkerboard_square_mm_measured": [20.0, 0.01],
+  "mtf50_center_cy_per_px": [0.3730, 0.0063],
+  "mtf50_corner_mean_cy_per_px": [0.3391, 0.0013],
+  "mtf50_corner_worst_cy_per_px": [0.2465, 0.0058],
   "conversion_gain_dn_per_e": [0.24371, 0.00191],
   "read_noise_e": [6.5692, 0.0552],
   "dark_current_e_per_s": [0.6762, 0.1332],
