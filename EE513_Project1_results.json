@@ -31,7 +31,7 @@
   "dynamic_range_criterion": "Observed green saturation / 1 RMS read noise",
   "delta_e_metric": "CIEDE2000",
   "colorchecker_reference_set": "ColorChecker24 - After November 2014",
-  "delta_e_mean_before_ccm": [20.604, 0.52],
-  "delta_e_mean_after_ccm": [3.879, 0.293],
-  "delta_e_worst_after_ccm": [8.321, 0.151]
+  "delta_e_mean_before_ccm": [13.514, 0.620],
+  "delta_e_mean_after_ccm": [3.472, 0.215],
+  "delta_e_worst_after_ccm": [7.552, 0.223]
 }
