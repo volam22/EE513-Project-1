@@ -70,9 +70,9 @@ Used three ColorChecker charts to fit 3 × 3 color correction matrices and evalu
 
 The project analysis was performed using Python and Jupyter Notebook. Final measurements and uncertainties are recorded in `results.json`.
 
-**One-command reproduction:** Not yet implemented or verified.
+**One-command reproduction:** 
 
-**Automated tests:** Test commands and coverage have not yet been verified.
+**Automated tests:** 
 
 The exact installation and execution commands will be documented after confirming the repository's files and dependencies.
 
