@@ -64,7 +64,7 @@ Used three ColorChecker charts to fit 3 × 3 color correction matrices and evalu
 - **MTF50:** Synthetic Gaussian-edge test measured 0.1877 cycles/pixel versus 0.1874 theoretically (approximately 0.16% error).
 - **Noise:** Single-frame variance produced a photon-transfer slope approximately 15% higher than the paired-frame method.
 - **Dynamic Range:** Observed and metadata-based calculations differed by approximately 0.23 stops.
-- **Color Accuracy:** A fixed CCM produced mean ΔE2000 values of 3.72 (LED), 6.59 (incandescent), and 8.73 (daylight).
+- **Color Accuracy:** A fixed CCM produced mean ΔE values of 3.72 (LED), 6.59 (incandescent), and 8.73 (daylight).
 
 ## 6. Reproducibility and Tests
 
