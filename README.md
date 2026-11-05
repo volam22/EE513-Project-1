@@ -52,9 +52,9 @@ Used three ColorChecker charts to fit 3 × 3 color correction matrices and evalu
 | Read noise | 6.5692 | 0.0552 | e⁻ RMS |
 | Dark-current fitted slope | +0.6762 | 0.1332 | e⁻/s |
 | Dynamic range | 10.8904 | 0.0043 | stops |
-| Mean ΔE before CCM | 13.514 | 0.620 | ΔE2000 |
-| Mean ΔE after CCM | 3.472 | 0.215 | ΔE2000 |
-| Mean worst-patch ΔE | 7.552 | 0.223 | ΔE2000 |
+| Mean ΔE before CCM | 13.514 | 0.620 | Dimensionless |
+| Mean ΔE after CCM | 3.472 | 0.215 | Dimensionless |
+| Mean worst-patch ΔE | 7.552 | 0.223 | Dimensionless |
 
 **Notes:** Dark current was not reliably resolved. The dynamic-range value is conditional on the observed saturation plateau, and its uncertainty does not include systematic saturation effects. Color results represent in-sample CCM performance.
 
