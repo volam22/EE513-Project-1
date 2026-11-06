@@ -43,8 +43,8 @@ Used three ColorChecker charts to fit 3 × 3 color correction matrices and evalu
 
 | Measurement | Result | Uncertainty | Units |
 |---|---:|---:|---|
-| Focal length (f_x) | 2786.07 | 11.03 | pixels |
-| Focal length (f_y) | 2791.50 | 10.45 | pixels |
+| Focal length (fx) | 2786.07 | 11.03 | pixels |
+| Focal length (fy) | 2791.50 | 10.45 | pixels |
 | RMS reprojection error | 0.8946 | Not estimated | pixels |
 | Center MTF50 | 0.3730 | 0.0063 | cycles/green-plane pixel |
 | Mean off-center MTF50 | 0.3391 | 0.0013 | cycles/green-plane pixel |
