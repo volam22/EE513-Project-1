@@ -84,7 +84,7 @@ The analysis used the ColorChecker24 – After November 2014 reference dataset. 
 
 The camera characterization analysis was completed using Python and Jupyter Notebook.
 
-1. Download or clone this repository.
+1. Download this repository.
 2. Open `EE513_Project1_Camera_Characterization.ipynb` in JupyterLab.
 3. Install the Python packages required by the notebook.
 4. Update the image folder paths to match the locations of the RAW DNG files.
