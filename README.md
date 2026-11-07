@@ -77,17 +77,10 @@ The analysis used the ColorChecker24 – After November 2014 reference dataset. 
 - The dynamic-range estimate is conditional on the observed saturation plateau. Its uncertainty does not include systematic saturation effects.
 - The color accuracy results represent in-sample CCM performance.
 
-## 5. Verification
 
-- **Geometry:** The final calibration reduced straight-edge RMS deviation from 2.769 to 1.634 pixels, an improvement of approximately 41%.
-- **MTF50:** A synthetic Gaussian-edge test measured 0.1877 cycles/pixel compared with a theoretical value of 0.1874 cycles/pixel (approximately 0.16% error).
-- **Sensor Noise:** Single-frame variance produced a photon-transfer slope approximately 15% higher than the difference-of-pairs method.
-- **Dynamic Range:** The observed saturation plateau was 3567 DN, compared with a DNG metadata white level of 4095 DN. The two interpretations produced estimates of 10.89 and 11.12 stops.
-- **Color Accuracy:** A fixed LED-fitted CCM produced mean ΔE2000 values of 3.72 under LED lighting, 6.59 under incandescent lighting, and 8.73 under daylight.
+## 5. Reproducibility and Tests
 
-## 6. Reproducibility and Tests
-
-### 6.1 Running the Project
+### 5.1 Running the Project
 
 The camera characterization analysis was completed using Python and Jupyter Notebook.
 
@@ -101,7 +94,7 @@ The notebook runs the five camera characterization analyses in sequence and disp
 
 The final measurements and uncertainties are recorded in `results.json`.
 
-### 6.2 Verification Tests
+### 5.2 Verification Tests
 
 The notebook includes checks to evaluate the reliability of the calculations.
 
@@ -111,7 +104,7 @@ The notebook includes checks to evaluate the reliability of the calculations.
 
 The complete notebook was executed successfully using the original RAW images.
 
-### 6.3 Reproducibility Notes
+### 5.3 Reproducibility Notes
 
 The analysis requires the original RAW DNG images and the Python libraries imported by the notebook.
 
@@ -121,18 +114,18 @@ If the original DNG images are not included in this repository, the analysis can
 
 The final report contains additional details about the methods, uncertainties, and limitations.
 
-## 7. Project Deliverables
+## 6. Project Deliverables
 
 - `README.md` - Project overview, methods, results, and verification
 - `results.json` - Final measurement values and uncertainties
 - Jupyter notebook - Camera characterization analysis and calculations
 - Final report - Datasheet, decisions-and-verification statement, and AI usage disclosure
 
-## 8. Course Information
+## 7. Course Information
 
 Portland State University
 
-EE513 - Image Processing
+EE513: Image Processing
 
 Project 1: Characterize Your Camera
 
