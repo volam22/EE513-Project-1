@@ -78,15 +78,15 @@ The exact installation and execution commands will be documented after confirmin
 
 ## 7. Project Deliverables
 
-- `README.md` — Project overview, methods, results, and verification
-- `results.json` — Final measurement values and uncertainties
-- Final report — Datasheet and decisions-and-verification statement
+- `README.md` - Project overview, methods, results, and verification
+- `results.json` - Final measurement values and uncertainties
+- Final report - Datasheet and decisions-and-verification statement
 
 ## 8. Course Information
 
 Portland State University
 
-EE513 — Image Processing
+EE513: Image Processing
 
 Project 1: Characterize Your Camera
 
