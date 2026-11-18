@@ -78,48 +78,73 @@ The analysis used the ColorChecker24 – After November 2014 reference dataset. 
 - The color accuracy results represent in-sample CCM performance.
 
 
+
 ## 5. Reproducibility and Tests
 
 ### 5.1 Running the Project
 
 The camera characterization analysis was completed using Python and Jupyter Notebook.
 
-1. Download this repository.
-2. Open `EE513_Project1_Camera_Characterization.ipynb` in JupyterLab.
-3. Install the Python packages required by the notebook.
-4. Update the image folder paths to match the locations of the RAW DNG files.
-5. Select **Kernel → Restart Kernel and Run All Cells**.
+1. Download or clone this repository.
+2. Open Anaconda Prompt and navigate to the project folder.
+3. Create a Python environment and activate it.
+4. Install the required libraries:
 
-The notebook runs the five camera characterization analyses in sequence and displays the calculated measurements, figures, and verification results.
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
+
+5. Run the complete analysis using one command:
+
+   ```bash
+   python run_project.py --data-root "C:\EE513\Images"
+   ```
+
+Replace `C:\EE513\Images` with the location of the RAW image folders on your computer.
+
+The command executes `EE513_Project1_Notebook.ipynb` from beginning to end and saves the calculated results, figures, and outputs.
 
 The final measurements and uncertainties are recorded in `results.json`.
 
 ### 5.2 Verification Tests
 
-The notebook includes checks to evaluate the reliability of the calculations.
+I included two automated tests to check the core calculations against known results.
 
-- **MTF50:** Tested the slanted-edge algorithm using a synthetic Gaussian-blurred edge with a known theoretical MTF50. The calculated result differed from theory by approximately 0.16%.
-- **Sensor Noise:** Compared single-frame and paired-frame variance estimation methods to evaluate the effects of fixed spatial variations.
-- **Final Results:** Checked that the main calculated measurement values were finite.
+To run the tests:
 
-The complete notebook was executed successfully using the original RAW images.
+```bash
+python -m pytest -v test_project1.py
+```
+
+- **MTF50:** Tests the same MTF50 function used for the real images against a synthetic Gaussian-blurred edge with a known theoretical result.
+- **Sensor Noise:** Tests the paired-frame temporal variance calculation using synthetic images with a known noise variance.
+
+Both tests passed successfully.
+
+I also checked that the main measured results were finite and consistent with my final report.
 
 ### 5.3 Reproducibility Notes
 
-The analysis requires the original RAW DNG images and the Python libraries imported by the notebook.
+The complete notebook was successfully executed using the original RAW DNG images.
 
-Some file paths are specific to my computer and must be updated before running the notebook on another system.
+The analysis requires the original image datasets for camera calibration, MTF50, flat-field noise, dark frames, saturation, and ColorChecker measurements.
 
-If the original DNG images are not included in this repository, the analysis cannot be fully reproduced without those input files.
+The RAW images are stored separately and are not included in this repository. Without these images, the full camera measurements cannot be reproduced, but the automated tests can be run independently.
 
-The final report contains additional details about the methods, uncertainties, and limitations.
+The final report contains additional information about the methods, uncertainties, and limitations.
 
 ## 6. Project Deliverables
 
-- `README.md` - Project overview, methods, results, and verification
+- `README.md` - Project overview, methods, results, and reproduction instructions
 - `results.json` - Final measurement values and uncertainties
-- Jupyter notebook - Camera characterization analysis and calculations
+- `EE513_Project1_Notebook.ipynb` - Camera characterization analysis and calculations
+- `camera_mtf.py` - MTF50 calculation used for real measurements and testing
+- `camera_noise.py` - Paired-frame temporal noise calculation
+- `test_project1.py` - Automated tests for MTF50 and sensor noise
+- `requirements.txt` - Required Python libraries
+- `run_project.py` - One-command execution of the complete notebook
 - Final report - Datasheet, decisions-and-verification statement, and AI usage disclosure
+
 
 ## 7. Course Information
 
