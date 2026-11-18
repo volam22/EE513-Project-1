@@ -1,0 +1,18 @@
+# Install with: python -m pip install -r requirements.txt
+# Version ranges allow the notebooks to use compatible NumPy/OpenCV versions.
+numpy>=1.26,<3
+scipy>=1.11
+matplotlib>=3.8
+opencv-python>=4.8
+rawpy>=0.19
+tifffile>=2023.7
+pandas>=2.1
+colour-science>=0.4.4
+scikit-image>=0.22
+Pillow>=10
+ipython>=8
+jupyterlab>=4
+nbconvert>=7
+nbclient>=0.10
+ipykernel>=6
+pytest>=8
