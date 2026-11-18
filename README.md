@@ -133,6 +133,8 @@ The RAW images are stored separately and are not included in this repository. Wi
 
 The final report contains additional information about the methods, uncertainties, and limitations.
 
+The automated verification tests can run independently of the original RAW image dataset.
+
 ## 6. Project Deliverables
 
 - `README.md` - Project overview, methods, results, and reproduction instructions
